@@ -6,12 +6,12 @@ var http = require('http'),
 //
 var options = {
   router: {
-    'localhost:1500/ueba': '127.0.0.1:3000',
-    'localhost:1500/nice': '127.0.0.1:4000',
+    'www.drinkzy.com': '127.0.0.1:3000',
+    'www.guilhermedecampo.com': '127.0.0.1:4000',
   }
 }
 
 //
 // ...and then pass them in when you create your proxy.
 //
-var proxyServer = httpProxy.createServer(options).listen(1500);
+var proxyServer = httpProxy.createServer(options).listen(80);
