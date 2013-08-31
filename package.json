@@ -1,0 +1,12 @@
+{
+    "name": "proxy",
+    "description": "proxy for apps in VPS",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+    },
+    "engines": {
+        "node": "0.10.17",
+        "npm": "1.1.49"
+    }
+}
