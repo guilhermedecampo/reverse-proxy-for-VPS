@@ -6,8 +6,8 @@ var http = require('http'),
 //
 var options = {
   router: {
-    'www.drinkzy.com': '127.0.0.1:3000',
-    'www.guilhermedecampo.com': '127.0.0.1:4000',
+    'http://www.drinkzy.com': '127.0.0.1:3000',
+    'http://www.guilhermedecampo.com': '127.0.0.1:4000',
   }
 }
 
