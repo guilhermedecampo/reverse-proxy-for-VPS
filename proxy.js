@@ -1,13 +1,13 @@
 var http = require('http'),
-    httpProxy = require('http-proxy');
+    httpProxy = require('../../lib/node-http-proxy');
 
-//
-// Just set up your options...
-//
+
+// Setting up...
+
 var options = {	
   router: {
-    'drinkzy.com': '192.241.224.223:3000',
-    'guilhermedecampo.com': '192.241.224.223:1500',
+    'http://www.drinkzy.com' : '192.241.224.223:3000',
+    'http://www.guilhermedecampo.com' : '192.241.224.223:1500',
   }
 }
 
@@ -15,3 +15,4 @@ var options = {
 // ...and then pass them in when you create your proxy.
 //
 var proxyServer = httpProxy.createServer(options).listen(80);
+
