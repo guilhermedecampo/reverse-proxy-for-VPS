@@ -6,8 +6,8 @@ var http = require('http'),
 
 var options = {	
   router: {
-    'http://www.drinkzy.com' : '192.241.224.223:3000',
-    'http://www.guilhermedecampo.com' : '192.241.224.223:1500',
+    'www.drinkzy.com' : '192.241.224.223:3000',
+    'www.guilhermedecampo.com' : '192.241.224.223:1500',
   }
 }
 
