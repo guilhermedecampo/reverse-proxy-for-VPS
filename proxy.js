@@ -7,9 +7,7 @@ var http = require('http'),
 var options = {
   hostnameOnly: true,	
   router: {
-    'drinkzy.com': '192.241.224.223:3000',
     'www.drinkzy.com': '192.241.224.223:3000',
-    'guilhermedecampo.com': '192.241.224.223:1500',
     'www.guilhermedecampo.com': '192.241.224.223:1500',
   }
 }
