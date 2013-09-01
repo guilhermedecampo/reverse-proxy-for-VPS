@@ -5,6 +5,7 @@ var http = require('http'),
 // Just set up your options...
 //
 var options = {
+  hostnameOnly: true,	
   router: {
     'drinkzy.com': '192.241.224.223:3000',
     'guilhermedecampo.com': '192.241.224.223:1500',
