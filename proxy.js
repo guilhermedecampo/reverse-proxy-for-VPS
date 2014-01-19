@@ -10,6 +10,7 @@ var options = {
     'drinkzy.com' : '192.241.224.223:3000',
     'www.guilhermedecampo.com' : '192.241.224.223:1500',
     'guilhermedecampo.com' : '192.241.224.223:1500',
+    'elainefabri.com.br': '192.241.224.223:1355',
   }
 }
 
